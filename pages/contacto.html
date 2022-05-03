@@ -64,7 +64,26 @@
       </nav>
     </header>
     <body>
-        <main></main>
+        <main>
+          <section class="container">
+          <h1 class="display 3">Contactanos</h1>
+          <hr>
+          
+            <div class="mb-3">
+            <label for="nombre y apellido" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="nombre y apellido" required maxlength="20" minlength="3" placeholder="nombre y apellido">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email </label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required maxlength="30" minlength="3">
+          </div>
+          <div class="mb-3">
+            <label for="consulta" class="form-label">Escriba su consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" required maxlength="250" minlength="5" rows="3" placeholder="Agregue su consulta maximo 250 caracteres, minimo 5"></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit">Enviar</button>
+        </section>
+        </main>
         <footer class=bg-dark>
             <section class=" container py-3 mt-5">
                 <article class="row container text-white-50">
